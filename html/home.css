@@ -1,0 +1,141 @@
+body{
+    margin: auto;
+}
+header{
+    height: 60px;
+    border: 5px solid brown;
+    background-color:brown;
+}
+#brand{
+    color: white;
+    margin: left;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#social{
+    float: right;
+    margin-top: 5px;
+}
+.sociallogo{
+    height: 50px;
+    width: 50px;
+    margin-top: -40%;
+}
+/*search*/
+#search{
+    background-image: url(image/foodWallpaper.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 600px;
+    height: 600px;
+    /*border: 5px solid rgb(224, 220, 11)*/
+}
+#logo{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 150px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+#logo>span{
+    margin-left: 23%;
+    margin-top: 13%;
+    position: absolute;
+}
+#heading{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 18%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+#droupdown{
+    height: 64px;
+    width: 604px;
+    border: 3px solid white;
+    margin-left: 35%;
+    margin-top: 22%;
+    position: absolute;
+}
+select{
+    height: 64px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+.restselect{
+    width:59%;
+
+}
+/*search*/
+#quicksearch{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    /*height: 600px;*/
+    /*border: 5px solid rgb(241, 10, 199)*/  
+}
+.quickheading{
+    font-size: 30px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.quicksubheading{
+    font-size: 20px;
+    color: gray;
+    line-height: 2;
+    margin-left: 0.2%;
+}
+.titlecontainer{
+    height: 180px;
+    width: 30%;
+    box-shadow: 10px 20px 10px rgb(112, 76, 8);
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.tilecontainer1{
+    width: 52%;
+    height: 100%;
+    float: left;
+
+}
+.tilecontainer1>img{
+    height: 100%;
+    width: 100%;
+}
+.tilecontainer2{
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.compheading{
+    color: grey;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.compheading>a{
+    color: brown !important; 
+}
+.compsubheading{color: grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*search*/
+footer{
+    margin-top: 2%;
+    height: 200px;
+    border: 5px solid rgb(14, 156, 169)
+}
+/*search*/
